@@ -1,0 +1,69 @@
+body {
+    background-color: coral;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 55px;
+    background-image: linear-gradient(to right, coral, white);
+    text-shadow: 4px 2px 3px darkkhaki;
+}
+
+form {
+    font-size: 18px;
+    background-color: khaki;
+    background-image: url(images/new_programmer-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 400px;
+    max-width: 750px;
+    margin: 60px auto;
+    padding: 30px 20px;
+    box-shadow: 8px 15px 20px rgba(0, 0, 0, 1);
+}
+
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 2px solid #777;
+    border-radius: 5px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    height: 18px;
+    width: 25px;
+}
+
+button {
+    background-color: coral;
+    border: 5px solid lightgray;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: block;
+    width: 25%;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+button:hover {
+    background-color: khaki;
+    border: 5px solid grey;
+}

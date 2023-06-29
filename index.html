@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>SURVEY FORM!</title>
+        <link rel="icon" href="images/web.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>PROGRAMMER'S SURVEY FORM!</h1>
+
+        <form id="form">
+            <div class="form-control">
+                <label for="name" id="label-name"><strong>NAME  :</strong></label>
+                <input type="text" id="name" placeholder="Enter your name"> 
+            </div>
+
+            <div class="form-control">
+                <label for="Email-id" id="label-email"><strong>EMAIL-ID  :</strong></label>
+                <input type="email" id="email" placeholder="Enter your email">
+            </div>
+
+            <div class="form-control">
+                <label for="Age" id="label-age"><strong>AGE  :</strong></label>
+                <input type="text" id="age" placeholder="Enter your age">
+            </div>
+
+            <div class="form-control">
+                 <label for="id" id="label-role"><strong>WHICH OPTION DESCRIBES YOU AS THE BEST?</strong></label>
+                 <select>
+                     <option value="student">STUDENT</option>
+                     <option value="intern">INTERN</option>
+                     <option value="front-end developer">FRONT-END DEVELOPER</option>
+                     <option value="back-end developer">BACK-END DEVELOPER</option>
+                     <option value="full-stack developer">FULL-STACK DEVELOPER</option>
+                     <option value="other">OTHER</option>
+                 </select>
+            </div>
+
+            <div class="form-control">
+                     <label><strong>LANGUAGES AND FRAMEWORKS KNOWN</strong> <small>{Check all that apply}</small></label>
+           
+                     <label for="inp-1"><input type="checkbox" name="input"><em>C</em></label>
+                     <label for="inp-2"><input type="checkbox" name="input"><em>C++</em></label>
+                     <label for="inp-3"><input type="checkbox" name="input"><em>HTML </em><small>(Hyper Text Markup Language)</small></label>
+                     <label for="inp-4"><input type="checkbox" name="input"><em>CSS </em><small>(Cascading Style Sheets)</small></label>
+                     <label for="inp-5"><input type="checkbox" name="input"><em>JAVASCRIPT</em></label>
+                     <label for="inp-6"><input type="checkbox" name="input"><em>REACT</em></label>
+                     <label for="inp-7"><input type="checkbox" name="input"><em>NODE.JS</em></label>
+                     <label for="inp-8"><input type="checkbox" name="input"><em>PHP </em><small>(Hypertext Pre Processor)</small></label>
+                     <label for="inp-9"><input type="checkbox" name="input"><em>MONGOdB</em></label>
+                     <label for="inp-10"><input type="checkbox" name="input"><em>SQL </em><small>(Structured Query Language)</small></label>
+                     <label for="inp-11"><input type="checkbox" name="input"><em>PYTHON</em></label>
+            </div>
+            
+            <div class="form-control">
+                 <label><strong>WOULD YOU LIKE TO RECOMMEND THIS FORM TO YOUR PROGRAMMER FRIENDS?</strong></label>
+                 <label><input type="radio" id="recommend-a" name="recommend">YES</label>
+                 <label><input type="radio" id="recommend-b" name="recommend">NO</label>
+                 <label><input type="radio" id="recommend-c" name="recommend">NOT SURE</label>
+            </div>
+
+            <div class="form-control">
+                 <label for="comment"><strong>ANY COMMENTS OR SUGGESSTIONS!</strong></label>
+                 <textarea name="comment" id="comment" placeholder="Enter Your Comment or Suggestion Here!"></textarea>
+            </div>
+
+            <button type="submit" value="submit"> SUBMIT!</button>
+
+            <form class="form-control" action="/success.html" method="post"></form>
+        </form>
+        <script src="app.js"></script>
+    </body>
+</html>
